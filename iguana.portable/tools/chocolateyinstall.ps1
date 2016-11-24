@@ -15,9 +15,9 @@ $packageArgs = @{
 
   softwareName  = 'iguana.portable*'
 
-  checksum      = ''
+  checksum      = $checksum
   checksumType  = 'sha256'
-  checksum64    = ''
+  checksum64    = $checksum64
   checksumType64= 'sha256'
 }
 
