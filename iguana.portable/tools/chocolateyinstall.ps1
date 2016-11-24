@@ -4,8 +4,8 @@ $packageName= 'iguana.portable'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url        = 'http://dl.interfaceware.com/iguana/windows/snapshot/iguana_noinstaller_branch_5_6_windows_x86.zip'
 $url64      = 'http://dl.interfaceware.com/iguana/windows/snapshot/iguana_noinstaller_branch_5_6_windows_x64.zip'
-$checksum   = 'C8DB1ACF58D89FAFE4833C3212387DAA30A5CC563EAA52F91C4C4334DD6DBE00'
-$checksum64 = '27BED3B2C37BBA9A8B431DB1E7C645F97CD8AB61C945F7E505F08E610CE9EE3C'
+$checksum   = 'FA15F06B8D13B0B8E1EC82EA9D441EAAAEFA068DEB4A8BF7001928E9A580E92F'
+$checksum64 = 'CD12725E67D2213F61371F264EF00329D63A9EA926EDACC1D2CD0981D0305A61'
 
 $packageArgs = @{
   packageName   = $packageName

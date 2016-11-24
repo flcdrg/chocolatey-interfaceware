@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>iguana</id>
-    <version>5.6.20-pre</version>
+    <version>5.6.20</version>
     <packageSourceUrl>https://github.com/flcdrg/chocolatey-interfaceware</packageSourceUrl>
     <owners>flcdrg</owners>
     <title>Interfaceware Iguana</title>
@@ -24,7 +24,7 @@ Try out a fully functional, 30 day trial of Iguana for free!
 </description>
     <releaseNotes>http://help.interfaceware.com/kb/284#changelog_5_6_20</releaseNotes>
     <dependencies>
-      <dependency id="iguana.install" version="[5.6.20-pre]" />
+      <dependency id="iguana.install" version="[5.6.20]" />
     </dependencies>
   </metadata>
 </package>

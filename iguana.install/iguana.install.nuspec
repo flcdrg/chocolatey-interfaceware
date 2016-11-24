@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>iguana.install</id>
-    <version>5.6.20-pre</version>
+    <version>5.6.20</version>
     <packageSourceUrl>https://github.com/flcdrg/chocolatey-interfaceware</packageSourceUrl>
     <owners>flcdrg</owners>
     <title>Interfaceware Iguana (Install)</title>
