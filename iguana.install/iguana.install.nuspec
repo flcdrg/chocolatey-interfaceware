@@ -15,11 +15,13 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <docsUrl>http://www.interfaceware.com/manual/index.html</docsUrl>
     <mailingListUrl>http://help.interfaceware.com/forums</mailingListUrl>
-    <tags>iguana admin EHR HL7 chameleon healthcare integration</tags>
+    <tags>iguana admin trial EHR HL7 chameleon healthcare integration</tags>
     <summary>Iguana interface engine</summary>
     <description>The Iguana interface engine allows you to integrate with EHRs, Billing Systems, HIEs and any other healthcare application.
 
 It’s the only integration engine you need to create any healthcare interface.
+
+Try out a fully functional, 30 day trial of Iguana for free!
 
 #### Package Parameters
 The following package parameters can be set:
@@ -33,12 +35,8 @@ These parameters can be passed to the installer with the use of `-params`.
 For example: `-params '"/InstallationPath:c:\Interfaceware /ExcludeChameleon"'`.
 </description>
     <releaseNotes>http://help.interfaceware.com/kb/284#changelog_5_6_20</releaseNotes>
-    <!-- =============================== -->      
-
   </metadata>
   <files>
-    <!-- this section controls what actually gets packaged into the Chocolatey package -->
     <file src="tools\**" target="tools" />
-    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
   </files>
 </package>
